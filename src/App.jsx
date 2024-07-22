@@ -1,5 +1,23 @@
+import {
+    Home,
+    About,
+    Courses,
+    Teacher,
+    Contact,
+    Footer,
+    Navbar,
+} from './components/Index'
+
 export default function App() {
-  return (
-    <h1 className="text-3xl font-Poppins font-bold underline">Hello world!</h1>
-  );
+    return (
+        <div className="font-Poppins bg-Solitude">
+            <Navbar />
+            <Home />
+            <About />
+            <Courses />
+            <Teacher />
+            <Contact />
+            <Footer />
+        </div>
+    )
 }
